@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build files
+dist/
+**/dist/
+build/
+coverage/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/  # Local testing and password utilities
+server/check-login.js
+server/reset-and-test.js
+server/reset-password.js
+server/controllers/Notification.js
